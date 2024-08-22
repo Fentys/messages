@@ -29,7 +29,7 @@ for (let word in randomWords) {
 }
 
 const formatMessage = text => {
-   const formatted = message.join('\n')
+   const formatted = text.join('\n')
    console.log(formatted)
 }
 
